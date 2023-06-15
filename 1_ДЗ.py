@@ -31,4 +31,9 @@
 # помощи git.
 
 def palindrome():
-    pass
+    word = input()
+    if word[::-1] == word:
+        return True
+    else:
+        return False
+print(palindrome())
